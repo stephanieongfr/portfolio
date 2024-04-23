@@ -50,7 +50,7 @@ const SIDE_PROJECTS: SideProjectProps[] = [
     Logo: Weight,
     title: "Fitness Survey",
     description: "Simple fitness form",
-    url: "/https://stephanieong-fitness-form.netlify.app/",
+    url: "https://stephanieong-fitness-form.netlify.app/",
   },
   {
     Logo: Leaf,
