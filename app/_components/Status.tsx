@@ -2,7 +2,7 @@
 import { Card } from "@/components/ui/card";
 import { Section } from "./Section";
 import Link from "next/link";
-import { LucideIcon, Code, ShoppingCart, Leaf, ArrowUpRight } from "lucide-react";
+import { LucideIcon, Code, Leaf, ArrowUpRight, Weight } from "lucide-react";
 
 export const Status = () => {
   return (
@@ -44,19 +44,19 @@ const SIDE_PROJECTS: SideProjectProps[] = [
     Logo: Code,
     title: "Markdown Preview",
     description: "Tool to preview your markdown",
-    url: "https://markdown-previewer-0d27e2d04e9e.herokuapp.com/",
+    url: "https://stephanieong-markdown-previewer.netlify.app/",
   },
   {
-    Logo: ShoppingCart,
-    title: "Codeon",
-    description: "Random quote generator",
-    url: "/",
+    Logo: Weight,
+    title: "Fitness Survey",
+    description: "Simple fitness form",
+    url: "/https://stephanieong-fitness-form.netlify.app/",
   },
   {
     Logo: Leaf,
     title: "Quote Generator",
     description: "Random inspirational quote generator",
-    url: "https://inspirational-quote-generator-1dd36017a3dc.herokuapp.com/",
+    url: "https://stephanieong-quote-generator.netlify.app/",
   },
 ];
 

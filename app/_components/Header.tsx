@@ -10,7 +10,9 @@ export const Header = () => {
   return (
     <header className="sticky top-0 py-4 bg-background">
       <Section className="flex items-baseline">
-        <h1 className="text-lg font-bold text-primary">stephanieongfr.com</h1>
+        <Link href="/">
+          <h1 className="text-lg font-bold text-primary">stephanie ong</h1>
+        </Link>
         <div className="flex-1">
           <ul className="flex justify-end items-center gap-2">
             <Link href="https://github.com/stephanieongfr" target="_blank" className={cn(buttonVariants({variant: "outline"}), "size-6 p-0")}>
