@@ -9,9 +9,9 @@ export const Hero = () => {
         <h2 className="font-caption text-5xl text-primary font-semibold">Stephanie Ong</h2>
         <h3 className="text-3xl font-caption">Web Developer</h3>
         <p>
-          I love learning how to code from <Code>YouTube</Code>.
+          I love to learn and grow. I graduated from <Code>O&apos;Clock school</Code> and am currently looking for new opportunities to improve my skills in web development.
           <br />
-          Currently living in <Code>🇫🇷 France</Code>.
+          Currently living in <Code>🇫🇷 France</Code> near Paris area, open to <Code>onsite</Code> and <Code>remote positions</Code>.
         </p>
       </div>
       <div className="flex-[2] max-md:m-auto ml-auto">

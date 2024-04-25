@@ -2,14 +2,14 @@
 import { Card } from "@/components/ui/card";
 import { Section } from "./Section";
 import Link from "next/link";
-import { LucideIcon, Code, Leaf, ArrowUpRight, Weight } from "lucide-react";
+import { LucideIcon, Code, Leaf, ArrowUpRight, Weight, File } from "lucide-react";
 
 export const Status = () => {
   return (
     <Section className="flex max-md:flex-col items-start gap-4">
       <div className="flex-[3] w-full">
         <Card className="w-full p-4 flex flex-col gap-2">
-          <p className="text-lg text-muted-foreground">Side, fun projects.</p>
+          <p className="text-lg text-muted-foreground">Side, fun learning projects.</p>
           <div className="flex flex-col gap-4">
             {SIDE_PROJECTS.map((project, index) => (
               <SideProject 
@@ -43,7 +43,7 @@ const SIDE_PROJECTS: SideProjectProps[] = [
   {
     Logo: Code,
     title: "Markdown Preview",
-    description: "Tool to preview your markdown",
+    description: "Tool to preview your markdown using React",
     url: "https://stephanieong-markdown-previewer.netlify.app/",
   },
   {
@@ -55,8 +55,14 @@ const SIDE_PROJECTS: SideProjectProps[] = [
   {
     Logo: Leaf,
     title: "Quote Generator",
-    description: "Random inspirational quote generator",
+    description: "Random inspirational quote generator using React",
     url: "https://stephanieong-quote-generator.netlify.app/",
+  },
+  {
+    Logo: File,
+    title: "Flashcards",
+    description: "Flashcards web app using React",
+    url: "https://stephanie-ong-flashcards.netlify.app/",
   },
 ];
 
